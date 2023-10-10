@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #FB1C1C;
+    height: 45px;
+  }
+  
+  .topnav a {
+    float: right;
+    display: inline;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 50px;
+
+  }
+
+  .topnav a img{
+    position: relative;
+    top: -12px;
+  }
+
+  .topnav .logo{
+    float: left;
+    font-size: 25px;
+    position: relative;
+    top: -7px;
+    left: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .topnav li{
+    float: right;
+    list-style: none;
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;    
+  }
+  
+  .topnav img{
+    float: right;
+    display: inline;
+    margin-top: 10px;
+    margin-right: none;
+    margin-left: px;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .topnav .search-container {
+    float: left;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-left: 50px;
+    width: 412px;
+    font-size: 17px;
+    border: none;
+  }
+
+  .topnav input::placeholder{
+    color: black;
+    padding: 10px;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 16px 16px;
+    margin-top: 8px;    
+    margin-right: 16px;
+    background: #ffffff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-image: url("icons8-search-50\ 2.png");
+    background-size: 32px;
+  }
+  
+
+  
