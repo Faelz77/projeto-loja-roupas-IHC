@@ -19,7 +19,6 @@ body {
     text-decoration: none;
     font-size: 16px;
     margin-right: 50px;
-
   }
 
   .topnav a img{
@@ -85,9 +84,50 @@ body {
     font-size: 17px;
     border: none;
     cursor: pointer;
-    background-image: url("icons8-search-50\ 2.png");
+    background-image: url("./imgs/icons8-search-50\ 2.png");
     background-size: 32px;
   }
   
+  .categorias{
+    height: 50px;
+    position: relative;
+    top: 23px;
+  }
 
+  .categorias a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 0px 130px;
+  }
+
+  .categorias .vermelho{
+    color: red;
+  }
+
+  .categorias input{
+    border: none;
+    float: left;
+    height: 23px;
+    font-size: 17px;
+    position: relative;
+    top: -10px;
+    left: 20px;
+  }
+  
+  .categorias input::placeholder{
+    color: black;
+  }
+
+  .categorias img{
+    float: left;
+    position: relative;
+    top: -12px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+  }
   
