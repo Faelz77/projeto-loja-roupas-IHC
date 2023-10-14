@@ -100,8 +100,9 @@ body {
     color: black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 29px;
     padding: 0px 130px;
+    margin-left: -20px;
   }
 
   .categorias .vermelho{
@@ -112,7 +113,7 @@ body {
     border: none;
     float: left;
     height: 23px;
-    font-size: 17px;
+    font-size: 18px;
     position: relative;
     top: -10px;
     left: 20px;
@@ -131,3 +132,14 @@ body {
     height: 30px;
   }
   
+  .info{
+    position: relative;
+    top: 60px;
+  }
+
+  .info img{
+    width: 278px;
+    height: 172px;
+    padding: 0px 50px;
+    margin-left: 70px;
+  }
